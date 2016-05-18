@@ -24,9 +24,15 @@ Step5: Generate an independent tidy data set with the average of each variable f
 # Description of the variables in run_analysis.R
 
 testX, trainX, testY, trainY, testSubject and trainSubject contain the original data downloaded.
+
 X, Y and subject contain the dataset merged from the previous one.
+
 dataFeatures contains the file features.txt
+
 mean_std contains all columns with the character 'mean' or 'std'.
+
 activities contains the file activity_labels.txt. And then descriptive name is used to name the activities.
+
 allData is merged from X, Y and subject. Descriptive variable names are used to label the dataset.
+
 avg contains the corresponding average values and it is stored in tidy_dataset.txt
