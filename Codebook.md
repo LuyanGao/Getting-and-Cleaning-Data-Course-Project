@@ -1,14 +1,23 @@
 The script run_analysis.R downloads and unzips the dataset, performs all the 5 steps for this course project. 
 
 Step1: Data can be merged using rbind() function. 
+
 Step2: Only the mean and standard deviation for each measurement are extracted from the dataset. 
+
 Step3: Use descriptive names to name the activities.
+
 Step4: Appropriately labels the dataset with descriptive variable names.
+
 tBodyAcc-mean()-X ----> timeBodyAccMeanX
+
 tBodyAcc-std()-Y ----> timeBodyAccStdY
+
 fBodyAcc-mean()-Z ----> freqBodyAccMeanZ
+
 fBodyBodyGyroMag-mean() ----> freqBodyGyroMagMean
+
 fBodyBodyGyroJerkMag-meanFreq() ----> freqBodyGyroJerkMagMeanFreq
+
 Step5: Generate an independent tidy data set with the average of each variable for each activity and each subject.
        And the final output file is tidy_dataset.txt
 
